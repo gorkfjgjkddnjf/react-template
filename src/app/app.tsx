@@ -1,9 +1,9 @@
-import { Routing } from '@app/router'
+import { Layout } from '@app/layout'
 
 const App = (): JSX.Element => {
   return (
     <div className="App">
-      <Routing />
+      <Layout />
     </div>
   )
 }
